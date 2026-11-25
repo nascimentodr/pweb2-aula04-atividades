@@ -1,10 +1,10 @@
 import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
 
-export type CorProjeto = 'vermelho' | 'verde' | 'azul' | 'amareco' | 'roxo';
+export type CorProjeto = 'vermelho' | 'verde' | 'azul' | 'amarelo' | 'roxo';
 
 @Entity('projetos')
-export class projeto {
+export class Projeto {
     @PrimaryGeneratedColumn()
     id: number;
 
